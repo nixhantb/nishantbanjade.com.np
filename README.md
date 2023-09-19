@@ -1,6 +1,6 @@
 # Portfolio Site Builder
 
-Build your personalized portfolio website easily using this simple command-line tool. Customize your website by editing a JSON configuration file in the `config` folder. You can even choose your own color theme within the JSON itself.
+Build your personalized portfolio website. Customize your website by editing a JSON configuration file in the `config` folder. 
 
 ## Getting Started
 
