@@ -10,7 +10,7 @@ Build your personalized portfolio website easily using this simple command-line 
 
 ### Installation
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine: (Clone from initial/setup branch to get initial template)
 
    ```bash
    git clone https://github.com/Nix-code/portfolio.git
