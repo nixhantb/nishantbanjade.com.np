@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
 import { styled } from "@mui/material/styles";
-import { List, Typography } from "@mui/material";
+import { List} from "@mui/material";
 import { Colors } from "../basetheme/theme";
 import "@fontsource/montserrat";
 
@@ -19,7 +19,7 @@ export const NavBarContainer = styled(Box)(() => ({
 }));
 
 // Nav header styling. Feel free to use logo for specific need
-export const NavBarHeaderTitle = styled(Typography)({
+export const NavBarHeaderTitle = styled(Box)({
   marginLeft: "2em",
 });
 // Nav Header Button style
@@ -85,4 +85,12 @@ export const primaryTypographyStyle = {
 export const primaryTypographyHeaderStyle = {
   fontSize: "20px",
   fontWeight: "600",
+};
+
+
+// Mobile style configuration: Can be used separation of concerns later on with different file if complexity increases
+
+export const primaryTypographyHeaderMobileStyle = {
+  fontSize: "12px",
+  fontWeight: "800",
 };
