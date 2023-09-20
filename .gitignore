@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# changes for your customized details
+*customizedev.json
+package-lock.json
