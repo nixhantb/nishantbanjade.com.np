@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
 import { styled } from "@mui/material/styles";
-import { List } from "@mui/material";
+import { List, Typography } from "@mui/material";
 import { Colors } from "../basetheme/theme";
 import "@fontsource/montserrat";
 
@@ -19,7 +19,7 @@ export const NavBarContainer = styled(Box)(() => ({
 }));
 
 // Nav header styling. Feel free to use logo for specific need
-export const NavBarHeaderTitle = styled(Box)({
+export const NavBarHeaderTitle = styled(Typography)({
   marginLeft: "2em",
 });
 // Nav Header Button style
