@@ -2,7 +2,7 @@ import { Box } from "@mui/system";
 import { styled } from "@mui/material/styles";
 import { List } from "@mui/material";
 import { Colors } from "../basetheme/theme";
-// import "@fontsource/montserrat";
+import "@fontsource/montserrat";
 
 interface ListNavBarContainerProps {
   types: "row" | "block";
