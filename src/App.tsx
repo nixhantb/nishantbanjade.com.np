@@ -1,11 +1,14 @@
+import { useEffect } from "react";
+// import UserProfileNavDesktopView from "./component/UserProfileNav/UserProfileNavDesktopView";
+import UserProfileNav from "./component/UserProfileNav/UserProfileNav";
+
 function App() {
+
+  useEffect(() => {
+      document.title = "Software Engineer | Nishant Banjade"
+  },[])
   return (
-    <>
-      <h1>
-        Hello user. Welcome to the basement ! If you are watching this, you are
-        awesome !!
-      </h1>
-    </>
+      <UserProfileNav/>
   );
 }
 
