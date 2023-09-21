@@ -14,7 +14,6 @@
 ## Styling
 
 - **Styles Folder**: `assets/styles/UserProfileNav`
-  - Styles for the `UserProfileNav` component are defined in the `UserProfileNavStyles.css` file.
 
 ## Configuration Data
 
