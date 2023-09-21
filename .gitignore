@@ -24,5 +24,5 @@ dist-ssr
 *.sw?
 
 # changes for your customized details
-*customizedev.json
+*customizedev.ts
 package-lock.json
