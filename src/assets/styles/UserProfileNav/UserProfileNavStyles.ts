@@ -20,7 +20,7 @@ export const NavBarContainer = styled(Box)(() => ({
 
 // Nav header styling. Feel free to use logo for specific need
 export const NavBarHeaderTitle = styled(Box)({
-  marginLeft: "2em",
+  
 });
 // Nav Header Button style
 export const PrimaryHeaderButtonStyle = {
