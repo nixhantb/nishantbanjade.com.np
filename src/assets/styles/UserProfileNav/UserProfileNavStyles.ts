@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
 import { styled } from "@mui/material/styles";
-import { List} from "@mui/material";
+import { List } from "@mui/material";
 import { Colors } from "../basetheme/theme";
 import "@fontsource/montserrat";
 
@@ -60,7 +60,7 @@ export const ListItemButtonStyle = {
   },
   "&:hover::after": {
     transform: "scaleX(1)",
-    background: Colors.textBlack,
+    background: Colors.primary,
   },
   "&:hover": {
     color: Colors.accentOrange,
@@ -87,10 +87,16 @@ export const primaryTypographyHeaderStyle = {
   fontWeight: "600",
 };
 
-
 // Mobile style configuration: Can be used separation of concerns later on with different file if complexity increases
 
 export const primaryTypographyHeaderMobileStyle = {
-  fontSize: "12px",
+  fontSize: "3.5vw",
+  fontWeight: "600",
+};
+
+// Primary Typography styles for ListItems for Mobile Views
+export const primaryTypographyStyleMobile = {
+  fontSize: "0.9em",
+  fontFamily: "'Montserrat', 'sans-serif'",
   fontWeight: "800",
 };
