@@ -12,8 +12,9 @@ import {
 } from "../../assets/styles/UserProfileNav/UserProfileNavStyles";
 
 import UserInformationDataForNavBar from "../../assets/config/developer_data/customizedev";
+import { FC } from "react";
 
-export default function UserProfileNavDesktopView() {
+const UserProfileNavDesktopView: FC = () => {
   const {
     developer_username,
     navbar_home,
@@ -69,4 +70,6 @@ export default function UserProfileNavDesktopView() {
       </ListNavItemContainer>
     </NavBarContainer>
   );
-}
+};
+
+export default UserProfileNavDesktopView;
