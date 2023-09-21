@@ -1,6 +1,6 @@
-# Portfolio Site Builder
-
-Build your personalized portfolio website. Customize your website by editing a JSON configuration file in the `config` folder. 
+# Portfolio Site With Terminal Support
+## Ongoing 
+Build your personalized portfolio website. Customize your website by editing a configuration file in the `config` folder. 
 
 ## Getting Started
 
@@ -26,12 +26,12 @@ Build your personalized portfolio website. Customize your website by editing a J
 
    ```
 ### Usage
-Edit the config/siteConfig.json file to customize your portfolio website. You can specify details like your name, bio, projects, and more.
+Edit the config/developer_data/customizedev.ts file to customize your portfolio website. You can specify details like your name, bio, projects, and more.
 
-To choose your own color theme, look for the "theme" section in the JSON configuration and adjust the colors according to your preferences.
+To choose your own color theme, look for the "theme" section in the .ts configuration and adjust the colors according to your preferences.
 
 
-Save your changes in the JSON configuration file.
+Save your changes in the configuration file.
 
 Run the following command to build your portfolio site:
 
