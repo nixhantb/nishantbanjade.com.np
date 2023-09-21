@@ -60,7 +60,7 @@ export const ListItemButtonStyle = {
   },
   "&:hover::after": {
     transform: "scaleX(1)",
-    background: Colors.textBlack,
+    background: Colors.primary,
   },
   "&:hover": {
     color: Colors.accentOrange,
@@ -85,4 +85,18 @@ export const primaryTypographyStyle = {
 export const primaryTypographyHeaderStyle = {
   fontSize: "20px",
   fontWeight: "600",
+};
+
+// Mobile style configuration: Can be used separation of concerns later on with different file if complexity increases
+
+export const primaryTypographyHeaderMobileStyle = {
+  fontSize: "3.5vw",
+  fontWeight: "600",
+};
+
+// Primary Typography styles for ListItems for Mobile Views
+export const primaryTypographyStyleMobile = {
+  fontSize: "0.9em",
+  fontFamily: "'Montserrat', 'sans-serif'",
+  fontWeight: "800",
 };
