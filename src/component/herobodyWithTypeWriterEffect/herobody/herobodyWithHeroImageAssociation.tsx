@@ -6,7 +6,7 @@ import {
   HeroTypeWriterContainer,
 } from "../../../assets/styles/herobody/herobodystyle";
 import BgImage from "../../../assets/images/hero-background-representational-image.png";
-import TypeWriterEffect from "../TypeWriterEffect";
+import TypeWriterEffect from "../typewriter/TypeWriterEffect";
 import customizedDevData from "../../../assets/config/developer_data/customizedev";
 const HeroBodyWithHeroImageAssociation: FC = () => {
   const { developer_quote, herobody_img_description } = customizedDevData;
