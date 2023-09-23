@@ -37,9 +37,11 @@ export const HeroBodyDescriptionContainer = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   alignItems: "center",
   width: "38em",
-  height: "29vh",
+  height: "24vh",
   margin: "2% auto 2%",
-  color: Colors.primary,
+  borderRadius: "5%",
+  color: Colors.backgroundLightGray,
+  background: Colors.royal,
   [theme.breakpoints.down("lg")]: {
     width: "35em",
     height: "28vh",
@@ -52,7 +54,6 @@ export const HeroBodyDescriptionContainer = styled(Box)(({ theme }) => ({
   },
   transition: "0.3s",
   "&:hover": {
-    color: Colors.accentOrange,
     borderRadius: "13% 31% 10% 3% / 4% 1% 31% 11%",
     boxShadow: `2px 2px 3px ${Colors.backgroundDarkGray}`,
   },
