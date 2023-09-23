@@ -40,8 +40,8 @@ export const HeroBodyDescriptionContainer = styled(Box)(({ theme }) => ({
   height: "24vh",
   margin: "2% auto 2%",
   borderRadius: "5%",
-  color: Colors.backgroundLightGray,
-  background: Colors.royal,
+  boxShadow: `2px 2px 3px ${Colors.backgroundDarkGray}`,
+  color: Colors.primary,
   [theme.breakpoints.down("lg")]: {
     width: "35em",
     height: "28vh",
