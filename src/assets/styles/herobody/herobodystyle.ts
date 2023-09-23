@@ -52,7 +52,7 @@ export const HeroBodyDescriptionContainer = styled(Box)(({ theme }) => ({
   },
   transition: "0.3s",
   "&:hover": {
-    color: Colors.terminal,
+    color: Colors.accentOrange,
     borderRadius: "13% 31% 10% 3% / 4% 1% 31% 11%",
     boxShadow: `2px 2px 3px ${Colors.backgroundDarkGray}`,
   },
