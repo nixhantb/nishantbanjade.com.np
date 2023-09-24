@@ -20,8 +20,10 @@ As a developer, I want to improve and expand my portfolio website to provide a b
     - After making changes or adding new features, I want to perform regression testing to ensure that existing functionality remains intact.
     - This includes testing all previously implemented features to prevent regressions.
 6. **Accessibility Testing (WAVE):**
+6. **Accessibility Testing (WAVE):**
     - I want to ensure that the website is accessible to all users, including those with disabilities.
     - Conduct automated accessibility tests using tools like WAVE to identify and fix any issues.
+    - Conduct automated accessibility tests using tools like WAVE identify and fix any issues.
     - Manually review and adjust content and interactive elements for accessibility compliance.
 7. **Browser Testing:**
     - I want to test the website on multiple browsers, including Chrome, Firefox, Safari, and Edge, to ensure cross-browser compatibility.
@@ -32,6 +34,7 @@ As a developer, I want to improve and expand my portfolio website to provide a b
 9. **Documentation:**
     - I want to maintain clear and up-to-date documentation that explains how to use and modify the website.
     - Include instructions for updating the configuration file in the **`config`** folder to customize the site.
+    - Include instructions for updating the .ts configuration file in the **`config`** folder to customize the site.
 10. **User Feedback:**
     - I want to gather feedback from users and stakeholders to identify areas for improvement.
     - Consider adding a feedback form or contact information for users to provide input.

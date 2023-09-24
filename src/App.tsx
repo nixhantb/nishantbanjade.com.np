@@ -1,14 +1,16 @@
 import { useEffect } from "react";
-// import UserProfileNavDesktopView from "./component/UserProfileNav/UserProfileNavDesktopView";
 import UserProfileNav from "./component/UserProfileNav/UserProfileNav";
+import HeroBodyWithHeroImageAssociation from "./component/herobodyWithTypeWriterEffect/herobody/herobodyWithHeroImageAssociation";
 
 function App() {
-
   useEffect(() => {
-      document.title = "Software Engineer | Nishant Banjade"
-  },[])
+    document.title = "Software Engineer | Nishant Banjade";
+  }, []);
   return (
-      <UserProfileNav/>
+    <>
+      <UserProfileNav />
+      <HeroBodyWithHeroImageAssociation />
+    </>
   );
 }
 
