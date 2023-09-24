@@ -9,13 +9,13 @@ import BgImage from "../../../assets/images/hero-background-representational-ima
 import TypeWriterEffect from "../typewriter/TypeWriterEffect";
 import customizedDevData from "../../../assets/config/developer_data/customizedev";
 const HeroBodyWithHeroImageAssociation: FC = () => {
-  const { developer_quote, herobody_img_description } = customizedDevData;
+  const { developer_quote, herobody_img_description, typeWriter_speed } = customizedDevData;
   return (
     <HeroBodyContainer>
       <HeroBodyImage src={BgImage} alt={herobody_img_description} />
       <HeroBodyDescriptionContainer>
         <HeroTypeWriterContainer>
-          <TypeWriterEffect fullText={developer_quote} />
+          <TypeWriterEffect fullText={developer_quote} typeWriterSpeed={typeWriter_speed} />
         </HeroTypeWriterContainer>
       </HeroBodyDescriptionContainer>
     </HeroBodyContainer>
