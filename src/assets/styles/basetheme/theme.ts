@@ -15,6 +15,12 @@ export const Colors: Record<string, string> = {
   terminal: "#20C20E",
   almost: "#d2e7ff",
   textGray: "#343d46",
+  // Terminal Layout theme
+  terminalBackgroundColor: "rgb(253, 246, 228)",
+  navBackgroundColor: "#ccc",
+  terminalOrangeDot: "#fc5b57",
+  terminalYellowDot: "#e5bf3c",
+  terminalGreenDot: "#57c038",
 };
 
 const baseTheme: Theme = createTheme({
