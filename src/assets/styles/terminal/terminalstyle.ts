@@ -18,14 +18,30 @@ export const TermContainer = styled(Box)(({ theme }) => ({
   height: "45vh",
   background: Colors.terminalBackgroundColor,
   borderRadius: "2%",
+  overflowY: "scroll",
+  overflowX: "hidden",
+  scrollBehavior: "smooth",
+  "&::-webkit-scrollbar": {
+    width: "8px",
+  },
+  "&::-webkit-scrollbar-thumb": {
+    backgroundColor: Colors.backgroundDarkGray,
+    borderRadius: "4px",
+  },
+  "&::-webkit-scrollbar-track": {
+    backgroundColor: Colors.terminalBackgroundColor,
+  },
+
   [theme.breakpoints.down("sm")]: {
     height: "40vh",
-    width: "100%"
-  }
+    width: "100%",
+  },
 }));
 
 // Navbar container
 export const NavInsideContainer = styled(Box)(({ theme }) => ({
+  position: "sticky", // Add this property
+  top: 0,
   height: "2.3em",
   background: Colors.navBackgroundColor,
   display: "flex",
@@ -35,10 +51,9 @@ export const NavInsideContainer = styled(Box)(({ theme }) => ({
   padding: "0 1em",
   [theme.breakpoints.down("sm")]: {
     padding: "0 0.5em",
-    height: "1.8em"
-  }
+    height: "1.8em",
+  },
 }));
-
 
 export const DotsInsideContainer = styled(Box)(() => ({
   display: "flex",
@@ -48,28 +63,27 @@ export const DotsInsideContainer = styled(Box)(() => ({
 }));
 
 export const TextInsideContainer = styled(Typography)(({ theme }) => ({
-    fontFamily: "'Courier Prime', sans-serif",
-    fontSize: "1em",
-    fontWeight: "600",
-    [theme.breakpoints.down("md")]: {
-      fontSize: "0.9em",
-    },
-    [theme.breakpoints.down("sm")]: {
-      fontSize: "0.7em",
-    },
-  }));
-  
- 
+  fontFamily: "'Courier Prime', sans-serif",
+  fontSize: "1em",
+  fontWeight: "600",
+  [theme.breakpoints.down("md")]: {
+    fontSize: "0.9em",
+  },
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "0.7em",
+  },
+}));
+
 export const Dot = styled(Box)(({ theme }) => ({
   content: '""',
   width: "1em",
   height: "1em",
   borderRadius: "50%",
   marginRight: "8px",
-  [theme.breakpoints.down("sm")]: {  
+  [theme.breakpoints.down("sm")]: {
     width: "0.7em",
     height: "0.7em",
-    marginRight: "5px"
+    marginRight: "5px",
   },
 }));
 
@@ -77,12 +91,46 @@ export const OrangeDot = styled(Dot)(() => ({
   backgroundColor: Colors.terminalOrangeDot,
 }));
 
-
 export const YellowDot = styled(Dot)(() => ({
   backgroundColor: Colors.terminalYellowDot,
 }));
 
-
 export const GreenDot = styled(Dot)(() => ({
   backgroundColor: Colors.terminalGreenDot,
+}));
+
+export const TerminalWelcomeMessages = styled(Typography)(({ theme }) => ({
+  fontFamily: "'Courier Prime', sans-serif",
+  fontSize: "1.1em",
+  fontWeight: "500",
+  color: Colors.textBlack,
+  margin: "0.8em 0.6em",
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "0.8em",
+  },
+}));
+export const TerminalPrompt = styled(Box)(() => ({
+  color: "rgb(169, 23, 168)",
+  marginLeft: "0.7em",
+}));
+
+export const TerminalUserName = styled(Typography)(({ theme }) => ({
+  fontSize: "1em",
+  fontWeight: "600",
+  fontFamily: "'Courier Prime', sans-serif",
+  paddingBottom: "4px",
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "0.8em",
+  },
+}));
+
+export const TerminalOutput = styled(Typography)(({ theme }) => ({
+  fontSize: "0.9em",
+  fontWeight: "500",
+  marginLeft: "0.7em",
+  fontFamily: "'Courier Prime', sans-serif",
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "0.8em",
+    marginLeft: "0.9em",
+  },
 }));
