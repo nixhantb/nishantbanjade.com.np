@@ -1,3 +1,4 @@
+import { FC } from "react";
 import {
   ContainerDiv,
   TermContainer,
@@ -5,7 +6,8 @@ import {
 import TermNav from "./TermNav";
 import TerminalLogic from "./TerminalLogic";
 
-function Terminal() {
+
+const TerminalContainer: FC = () => {
   return (
     <>
       <ContainerDiv>
@@ -16,6 +18,6 @@ function Terminal() {
       </ContainerDiv>
     </>
   );
-}
+};
 
-export default Terminal;
+export default TerminalContainer;

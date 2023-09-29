@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import UserProfileNav from "./component/UserProfileNav/UserProfileNav";
 import HeroBodyWithHeroImageAssociation from "./component/herobodyWithTypeWriterEffect/herobody/herobodyWithHeroImageAssociation";
-import Terminal from "./component/terminal/Terminal";
+import TerminalContainer from "./component/terminal/Terminal";
+
 
 function App() {
   useEffect(() => {
@@ -11,7 +12,7 @@ function App() {
     <>
       <UserProfileNav />
       <HeroBodyWithHeroImageAssociation />
-      <Terminal/>
+      <TerminalContainer/>
     </>
   );
 }
