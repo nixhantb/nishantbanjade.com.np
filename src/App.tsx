@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import UserProfileNav from "./component/UserProfileNav/UserProfileNav";
 import HeroBodyWithHeroImageAssociation from "./component/herobodyWithTypeWriterEffect/herobody/herobodyWithHeroImageAssociation";
-import TerminalContainer from "./component/terminal/Terminal";
+import TerminalContainer from "./component/terminal/TerminalContainer";
 
 
 function App() {
   useEffect(() => {
-    document.title = "Software Engineer | Nishant Banjade";
+    document.title = "Software Engineer I | Nishant Banjade";
   }, []);
   return (
     <>
