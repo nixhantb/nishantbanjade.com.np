@@ -29,48 +29,51 @@ describe("baseTheme", () => {
     expect(baseTheme.palette.text.secondary).toBe(Colors.textShaft);
   });
 
-    it("should have defined colors in the Colors object", () => {
-       // Ensuring the Colors object has defined colors
-       expect(Object.keys(Colors)).toEqual([
-        "primary",
-        "backgroundLightGray",
-        "backgroundLightBlack",
-        "accentOrange",
-        "backgroundDarkGray",
-        "textShaft",
-        "textBlack",
-        "plumPlate",
-        "cloudyKnoxville",
-        "premiumDark",
-        "royal",
-        "terminal",
-        "almost",
-        "textGray",
-       ]);
-    });
+  it("should have defined colors in the Colors object", () => {
+    // Ensuring the Colors object has defined colors
+    expect(Object.keys(Colors)).toEqual([
+      "primary",
+      "backgroundLightGray",
+      "backgroundLightBlack",
+      "accentOrange",
+      "backgroundDarkGray",
+      "textShaft",
+      "textBlack",
+      "plumPlate",
+      "cloudyKnoxville",
+      "premiumDark",
+      "royal",
+      "terminal",
+      "almost",
+      "textGray",
+      "terminalBackgroundColor",
+      "navBackgroundColor",
+      "terminalOrangeDot",
+      "terminalYellowDot",
+      "terminalGreenDot",
+    ]);
+  });
 
-    // undefined checks
-    it("should not be undefined or null", () => {
-        // making sure baseTheme is not undefined or null
-        expect(baseTheme).not.toBeNull();
-        expect(baseTheme).not.toBeUndefined();
-    });
+  // undefined checks
+  it("should not be undefined or null", () => {
+    // making sure baseTheme is not undefined or null
+    expect(baseTheme).not.toBeNull();
+    expect(baseTheme).not.toBeUndefined();
+  });
 
-    it("should not contain unexpected properties", () => {
-        // Get all property names in the baseTheme object
-        const themeProperties = Object.keys(baseTheme);
-      
-        // Define unexpected properties
-        const unexpectedProperties = ["#abcdefg", "#23223"];
-      
-        // Check if any unexpected properties are present in the themeProperties array
-        const unexpectedPropertyPresent = unexpectedProperties.some((property) =>
-          themeProperties.includes(property)
-        );
-      
-        // Expect that no unexpected properties are present
-        expect(unexpectedPropertyPresent).toBe(false);
-      });
-      
+  it("should not contain unexpected properties", () => {
+    // Get all property names in the baseTheme object
+    const themeProperties = Object.keys(baseTheme);
 
+    // Define unexpected properties
+    const unexpectedProperties = ["#abcdefg", "#23223"];
+
+    // Check if any unexpected properties are present in the themeProperties array
+    const unexpectedPropertyPresent = unexpectedProperties.some((property) =>
+      themeProperties.includes(property)
+    );
+
+    // Expect that no unexpected properties are present
+    expect(unexpectedPropertyPresent).toBe(false);
+  });
 });
