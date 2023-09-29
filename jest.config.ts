@@ -13,4 +13,5 @@ module.exports = {
     '^@fontsource/courier-prime': 'jest-transform-stub',
     '^@fontsource/your-font-package': 'jest-transform-stub', // Add other font packages as needed
   },
+  collectCoverage: true,
 };
