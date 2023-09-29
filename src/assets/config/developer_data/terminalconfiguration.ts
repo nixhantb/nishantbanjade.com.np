@@ -12,6 +12,24 @@ const TerminalConfiguration = {
     desc: "Jain (Deemed-to-be) University | 2019 - 2023 <br/>",
     CGPA: "8.4 / 10",
   },
+  help: {
+    whoami: "whoami -> My general information<br/>",
+    education: "education -> My educational background<br/>",
+    skills: "Skills -> My current SWE skills<br/>",
+    clear: "clear -> clears every thing from the window",
+  },
+  skills: {
+    frontend: "Frontend -> HTML, CSS, React, Material UI, Styled component<br/>",
+    backend: "Backend -> .Net Framework, Rest architecture, RabbitMQ<br/>",
+    database: "Database -> SQL, MongoDB(familiar)<br/>",
+    programming_languages:
+      "Programming Languages ->Java, C#, JavaScript, TypeScript, Python, C(familiar)<br/>",
+    unit_testing: "Unit testing -> TypeMock, Jest<br/>",
+    version_control: "Version control -> Git<br/>",
+    Agile_tool: "Agile Tool -> JIRA(almost everyday)<br/>",
+    Tools: "Tools I use -> Figma, Postman, visual studio 2022, VScode, vsVim"
+  },
+
 };
 
 export default TerminalConfiguration;
