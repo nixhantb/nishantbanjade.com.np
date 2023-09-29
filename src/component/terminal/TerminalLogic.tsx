@@ -70,6 +70,7 @@ const TerminalLogic: FC = () => {
           key={index}
           command={item.command}
           response={item.response}
+          data-testid = "terminal-output"
         />
       ))}
       <TerminalPrompt>
@@ -83,6 +84,7 @@ const TerminalLogic: FC = () => {
             onKeyPress={handleKeyPress}
             ref={inputRef}
             style={customInputStyle}
+            data-testid="terminal-input"
           />
         </TerminalUserName>
       </TerminalPrompt>
