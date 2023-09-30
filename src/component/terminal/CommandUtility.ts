@@ -12,30 +12,44 @@ import {
 export const commands: Record<string, string | string[]> = {
   // Information about the user
   whoami: WhoamI.map(
-    (item) => `${item.name} ${item.Profession} ${item.company}`
-  ).join("<br/>"),
+    (item) =>
+      `${item.name} <br/> ${item.profession} <br/> ${item.company}`
+  ),
   // Education Qualifications
   education: EducationQualifications.map(
-    (item) => `Course: ${item.title} College: ${item.desc}  CGPA: ${item.CGPA}`
-  ).join("<br />"),
+    (item) =>
+      `Course: ${item.title}<br/>College: ${item.desc}<br/> CGPA: ${item.CGPA}`
+  ),
 
   clear: [],
   help: HelpUser.map(
-    (item) => `${item.whoami} ${item.education} ${item.skills} ${item.publications} ${item.blogs} ${item.github} ${item.LinkedIn} ${item.clear}`
+    (item) =>
+      `${item.whoami} <br/> ${item.education} <br/> ${item.skills} <br/> ${item.publications} <br/> ${item.blogs} <br/> ${item.github} <br/> ${item.LinkedIn} <br/> ${item.clear}`
   ).join("<br/>"),
 
   skills: Skills.map(
-    (
-      item
-    ) => `${item.frontend} ${item.backend} ${item.database} ${item.programming_languages} ${item.unit_testing}
-    ${item.version_control} ${item.Agile_tool} ${item.Tools}`
+    (item) =>
+      `${item.frontend} <br/> ${item.backend} <br/> ${item.database} <br/> ${item.programming_languages} <br/> ${item.unit_testing}
+    <br/> ${item.version_control} <br/> ${item.Agile_tool} <br/> ${item.Tools}`
   ),
 
-  publications: Publications.map((item) => `${item.image_caption}`),
+  publications: Publications.map(
+    (item) =>
+      `${item.image_caption}<br/> <a href="${item.url}" target="_blank">Paper Link</a>`
+  ),
 
-  blogs: Blog.map((item) => `${item.blog_articles}`),
+  blogs: Blog.map(
+    (item) =>
+      `${item.blog_articles}<br/><a href = "${item.blog_url}" target = "_blank">${item.blog_url}</a>`
+  ),
 
-  github: Github.map((item) => `${item.gh_handle}`),
+  github: Github.map(
+    (item) =>
+      `<a href="${item.gh_handle}" target="_blank">${item.gh_handle}</a>`
+  ),
 
-  linkedin: Linkedin.map((item) => `${item.linkedin}`)
+  linkedin: Linkedin.map(
+    (item) =>
+      `<a href="${item.linkedin}" target="_blank">${item.linkedin}</a>`
+  ),
 };

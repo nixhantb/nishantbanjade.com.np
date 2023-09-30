@@ -18,7 +18,7 @@ export const TermContainer = styled(Box)(({ theme }) => ({
   height: "45vh",
   background: Colors.terminalBackgroundColor,
   borderRadius: "2%",
-  overflowY: "scroll",
+  overflowY: "auto",
   overflowX: "hidden", 
   scrollBehavior: "smooth",
   "&::-webkit-scrollbar": {
@@ -26,7 +26,7 @@ export const TermContainer = styled(Box)(({ theme }) => ({
   },
   "&::-webkit-scrollbar-thumb": {
     backgroundColor: Colors.backgroundDarkGray, 
-    borderRadius: "4px", 
+    borderRadius: "8px", 
   },
   "&::-webkit-scrollbar-track": {
     backgroundColor: Colors.terminalBackgroundColor,
