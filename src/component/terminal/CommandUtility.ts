@@ -1,7 +1,13 @@
-import { EducationQualifications } from "./commands/Education";
-import { HelpUser } from "./commands/HelpUser";
-import { Skills } from "./commands/Skills";
-import { WhoamI } from "./commands/whoami";
+import {
+  HelpUser,
+  WhoamI,
+  EducationQualifications,
+  Skills,
+  Publications,
+  Github,
+  Linkedin,
+  Blog
+} from "./commands/HelpUser";
 
 export const commands: Record<string, string | string[]> = {
   // Information about the user
@@ -15,7 +21,7 @@ export const commands: Record<string, string | string[]> = {
 
   clear: [],
   help: HelpUser.map(
-    (item) => `${item.whoami} ${item.education} ${item.skills} ${item.clear}`
+    (item) => `${item.whoami} ${item.education} ${item.skills} ${item.publications} ${item.blogs} ${item.github} ${item.LinkedIn} ${item.clear}`
   ).join("<br/>"),
 
   skills: Skills.map(
@@ -24,4 +30,12 @@ export const commands: Record<string, string | string[]> = {
     ) => `${item.frontend} ${item.backend} ${item.database} ${item.programming_languages} ${item.unit_testing}
     ${item.version_control} ${item.Agile_tool} ${item.Tools}`
   ),
+
+  publications: Publications.map((item) => `${item.image_caption}`),
+
+  blogs: Blog.map((item) => `${item.blog_articles}`),
+
+  github: Github.map((item) => `${item.gh_handle}`),
+
+  linkedin: Linkedin.map((item) => `${item.linkedin}`)
 };
