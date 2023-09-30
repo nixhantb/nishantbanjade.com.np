@@ -16,14 +16,16 @@ const TerminalConfiguration = {
     whoami: "whoami -> My general information<br/>",
     education: "education -> My educational background<br/>",
     skills: "Skills -> My current SWE skills<br/>",
-    publications: "publications -> Papers published in international Journals <br/>",
-    blogs: "blogs -> Published on Hashnode<br/>",
+    publications:
+      "publications -> Papers published on international Journals <br/>",
+    blogs: "blogs -> Contributing programming tutorials for learners<br/>",
     github: "github -> Where I put my codes :P<br/>",
-    LinkedIn: "linkedin -> Professional world<br/>",
-    clear: "clear -> clears every thing from the window<br/>",
+    LinkedIn: "linkedin -> LinkedIn handle of mine.<br/>",
+    clear: "clear -> clears every thing from the terminal<br/>",
   },
   skills: {
-    frontend: "Frontend -> HTML, CSS, React, Material UI, Styled component<br/>",
+    frontend:
+      "Frontend -> HTML, CSS, React, Material UI, Styled component<br/>",
     backend: "Backend -> .Net Framework, Rest architecture, RabbitMQ<br/>",
     database: "Database -> SQL, MongoDB(familiar)<br/>",
     programming_languages:
@@ -31,22 +33,26 @@ const TerminalConfiguration = {
     unit_testing: "Unit testing -> TypeMock, Jest<br/>",
     version_control: "Version control -> Git<br/>",
     Agile_tool: "Agile Tool -> JIRA, SCRUM<br/>",
-    Tools: "Others -> Figma, Postman, visual studio 2022, VScode, vsVim, Machine Learning"
+    Tools:
+      "Others -> Figma, Postman, visual studio 2022, VScode, vsVim, Machine Learning",
   },
 
   publications: {
-    image_caption: "Title -> Image Captioning with Audio reinforcement using RNN and CNN<br/>URL -> <a href = 'https://ieeexplore.ieee.org/document/10169692' target='_blank'>https://ieeexplore.ieee.org/document/10169692</a><br/>"
+    image_caption:
+      "Title -> Image Captioning with Audio reinforcement using RNN and CNN<br/>URL -> <a href = 'https://ieeexplore.ieee.org/document/10169692' target='_blank'>https://ieeexplore.ieee.org/document/10169692</a><br/>",
   },
   blogs: {
-    blog_articles: "Blogs -> Find it on a Hashnode <br/> <a href = 'https://blog.nishantbanjade.com.np/' target = '_blank'>Nishant's Blog Articles</a><br/>"
+    blog_articles:
+      "Blogs -> Find it on a Hashnode <br/> <a href = 'https://blog.nishantbanjade.com.np/' target = '_blank'>Nishant's Blog Articles</a><br/>",
   },
   github: {
-    gh_handle: "Github -> <a href = 'https://github.com/Nix-code' target = '_blank'>https://github.com/Nix-code</a><br/>"
+    gh_handle:
+      "Github -> <a href = 'https://github.com/Nix-code' target = '_blank'>https://github.com/Nix-code</a><br/>",
   },
   LinkedIn: {
-    linkedin: "LinkedIn -> <a href = 'https://www.linkedin.com/in/nbanjade/' target = '_blank'>https://www.linkedin.com/in/nbanjade/</a><br/>"
-  }
-
+    linkedin:
+      "LinkedIn -> <a href = 'https://www.linkedin.com/in/nbanjade/' target = '_blank'>https://www.linkedin.com/in/nbanjade/</a><br/>",
+  },
 };
 
 export default TerminalConfiguration;

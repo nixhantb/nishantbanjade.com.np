@@ -19,14 +19,14 @@ export const TermContainer = styled(Box)(({ theme }) => ({
   background: Colors.terminalBackgroundColor,
   borderRadius: "2%",
   overflowY: "scroll",
-  overflowX: "hidden",
+  overflowX: "hidden", 
   scrollBehavior: "smooth",
   "&::-webkit-scrollbar": {
-    width: "8px",
+    width: "8px", 
   },
   "&::-webkit-scrollbar-thumb": {
-    backgroundColor: Colors.backgroundDarkGray,
-    borderRadius: "4px",
+    backgroundColor: Colors.backgroundDarkGray, 
+    borderRadius: "4px", 
   },
   "&::-webkit-scrollbar-track": {
     backgroundColor: Colors.terminalBackgroundColor,
@@ -40,8 +40,8 @@ export const TermContainer = styled(Box)(({ theme }) => ({
 
 // Navbar container
 export const NavInsideContainer = styled(Box)(({ theme }) => ({
-  position: "sticky", // Add this property
-  top: 0,
+  position: "sticky",  // Add this property
+  top: 0, 
   height: "2.3em",
   background: Colors.navBackgroundColor,
   display: "flex",
@@ -99,38 +99,39 @@ export const GreenDot = styled(Dot)(() => ({
   backgroundColor: Colors.terminalGreenDot,
 }));
 
-export const TerminalWelcomeMessages = styled(Typography)(({ theme }) => ({
+export const TerminalWelcomeMessages = styled(Typography)(({theme}) => ({
   fontFamily: "'Courier Prime', sans-serif",
   fontSize: "1.1em",
   fontWeight: "500",
   color: Colors.textBlack,
   margin: "0.8em 0.6em",
-  [theme.breakpoints.down("sm")]: {
-    fontSize: "0.8em",
-  },
-}));
+  [theme.breakpoints.down("sm")]:{
+    fontSize: "0.8em"
+  }
+
+}))
 export const TerminalPrompt = styled(Box)(() => ({
-  color: "rgb(169, 23, 168)",
-  marginLeft: "0.7em",
+    color: "rgb(169, 23, 168)",
+    marginLeft: "0.7em"
 }));
 
-export const TerminalUserName = styled(Typography)(({ theme }) => ({
-  fontSize: "1em",
-  fontWeight: "600",
-  fontFamily: "'Courier Prime', sans-serif",
-  paddingBottom: "4px",
-  [theme.breakpoints.down("sm")]: {
-    fontSize: "0.8em",
-  },
+export const TerminalUserName = styled(Typography)(({theme}) => ({
+   fontSize: "1em",
+   fontWeight: "600",
+   fontFamily: "'Courier Prime', sans-serif",
+   paddingBottom: "4px",
+   [theme.breakpoints.down("sm")]: {
+    fontSize: "0.8em"
+   }
 }));
 
-export const TerminalOutput = styled(Typography)(({ theme }) => ({
+export const TerminalOutput = styled(Typography)(({theme})=>({
   fontSize: "0.9em",
-  fontWeight: "500",
-  marginLeft: "0.7em",
-  fontFamily: "'Courier Prime', sans-serif",
-  [theme.breakpoints.down("sm")]: {
+   fontWeight: "500",
+   marginLeft: "0.7em",
+   fontFamily: "'Courier Prime', sans-serif",
+   [theme.breakpoints.down("sm")]: {
     fontSize: "0.8em",
-    marginLeft: "0.9em",
-  },
+    marginLeft: "0.9em"
+   }
 }));
