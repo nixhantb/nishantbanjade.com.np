@@ -10,7 +10,7 @@ const TerminalConfiguration = {
   education: {
     title: "CSE(hons.) Data Science <br/>",
     desc: "Jain (Deemed-to-be) University | 2019 - 2023 <br/>",
-    CGPA: "8.4 / 10",
+    CGPA: "8.68 / 10",
   },
   help: {
     whoami: "whoami -> My general information<br/>",
