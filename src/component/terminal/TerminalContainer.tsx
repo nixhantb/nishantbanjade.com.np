@@ -6,7 +6,6 @@ import {
 import TermNav from "./TermNav";
 import TerminalLogic from "./TerminalLogic";
 
-
 const TerminalContainer: FC = () => {
   return (
     <>

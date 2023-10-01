@@ -19,19 +19,8 @@ export const TermContainer = styled(Box)(({ theme }) => ({
   background: Colors.terminalBackgroundColor,
   borderRadius: "2%",
   overflowY: "auto",
-  overflowX: "hidden", 
+  overflowX: "hidden",
   scrollBehavior: "smooth",
-  "&::-webkit-scrollbar": {
-    width: "8px", 
-  },
-  "&::-webkit-scrollbar-thumb": {
-    backgroundColor: Colors.backgroundDarkGray, 
-    borderRadius: "8px", 
-  },
-  "&::-webkit-scrollbar-track": {
-    backgroundColor: Colors.terminalBackgroundColor,
-  },
-
   [theme.breakpoints.down("sm")]: {
     height: "40vh",
     width: "100%",
@@ -101,10 +90,10 @@ export const GreenDot = styled(Dot)(() => ({
 
 export const TerminalWelcomeMessages = styled(Typography)(({theme}) => ({
   fontFamily: "'Courier Prime', sans-serif",
-  fontSize: "1.1em",
-  fontWeight: "500",
+  fontSize: "1em",
+  fontWeight: "550",
   color: Colors.textBlack,
-  margin: "0.8em 0.6em",
+  margin: "0.5em 1.4em",
   [theme.breakpoints.down("sm")]:{
     fontSize: "0.8em"
   }
@@ -112,12 +101,14 @@ export const TerminalWelcomeMessages = styled(Typography)(({theme}) => ({
 }))
 export const TerminalPrompt = styled(Box)(() => ({
     color: "rgb(169, 23, 168)",
-    marginLeft: "0.7em"
+    marginLeft: "1.4em"
 }));
 
 export const TerminalUserName = styled(Typography)(({theme}) => ({
    fontSize: "1em",
    fontWeight: "600",
+   marginTop: "1em",
+   marginBottom: "0.4em",
    fontFamily: "'Courier Prime', sans-serif",
    paddingBottom: "4px",
    [theme.breakpoints.down("sm")]: {
@@ -128,7 +119,7 @@ export const TerminalUserName = styled(Typography)(({theme}) => ({
 export const TerminalOutput = styled(Typography)(({theme})=>({
   fontSize: "0.9em",
    fontWeight: "500",
-   marginLeft: "0.7em",
+   marginLeft: "1.6em",
    fontFamily: "'Courier Prime', sans-serif",
    [theme.breakpoints.down("sm")]: {
     fontSize: "0.8em",

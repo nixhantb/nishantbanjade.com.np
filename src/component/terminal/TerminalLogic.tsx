@@ -30,12 +30,15 @@ const TerminalLogic: FC = () => {
   const [input, setInput] = useState<string>("");
   const [output, setOutput] = useState<Command[]>([]);
   const inputRef = useRef<HTMLInputElement | null>(null);
-
+  const terminalContainerRef = useRef<HTMLDivElement | null>(null);
   const {welcome_message, terminal_username} = TerminalConfiguration;
   
   useEffect(() => {
     if (inputRef.current) {
       inputRef.current.focus();
+    }
+    if (terminalContainerRef.current) {
+      terminalContainerRef.current.scrollTop = terminalContainerRef.current.scrollHeight;
     }
   }, [output]);
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -61,7 +64,9 @@ const TerminalLogic: FC = () => {
 
   return (
     <>
-      <TerminalWelcomeMessages>
+   <div ref={terminalContainerRef} style={{ maxHeight: "376px", overflowY: "auto" }}>
+
+     <TerminalWelcomeMessages>
        {welcome_message}
       </TerminalWelcomeMessages>
 
@@ -88,6 +93,7 @@ const TerminalLogic: FC = () => {
           />
         </TerminalUserName>
       </TerminalPrompt>
+    </div>
     </>
   );
 };
