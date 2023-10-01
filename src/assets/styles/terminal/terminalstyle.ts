@@ -125,6 +125,6 @@ export const TerminalOutput = styled(Typography)(({theme})=>({
    fontFamily: "'Courier Prime', sans-serif",
    [theme.breakpoints.down("sm")]: {
     fontSize: "0.8em",
-    marginLeft: "0.9em"
+    marginLeft: "1.9em"
    }
 }));
