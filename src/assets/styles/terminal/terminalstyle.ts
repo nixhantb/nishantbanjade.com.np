@@ -20,7 +20,9 @@ export const TermContainer = styled(Box)(({ theme }) => ({
   borderRadius: "2%",
   overflowY: "auto",
   overflowX: "hidden",
-  scrollBehavior: "smooth",
+  "&::-webkit-scrollbar": {
+    width: "0", // Hide the vertical scrollbar
+  },
   [theme.breakpoints.down("sm")]: {
     height: "40vh",
     width: "100%",
