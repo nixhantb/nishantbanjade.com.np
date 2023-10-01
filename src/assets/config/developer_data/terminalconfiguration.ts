@@ -33,7 +33,7 @@ const TerminalConfiguration = {
   },
   publications: {
     image_caption: "Title -> Image Captioning with Audio reinforcement using RNN and CNN",
-    url: "URL -> https://ieeexplore.ieee.org/document/10169692",
+    url: "https://ieeexplore.ieee.org/document/10169692",
   },
   blogs: {
     blog_articles: "Blogs and Articles",
