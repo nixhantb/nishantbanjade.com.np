@@ -7,3 +7,4 @@ export const Publications = [TerminalConfiguration.publications];
 export const Blog = [TerminalConfiguration.blogs];
 export const Github = [TerminalConfiguration.github];
 export const Linkedin = [TerminalConfiguration.LinkedIn];
+export const Contact = [TerminalConfiguration.contact];

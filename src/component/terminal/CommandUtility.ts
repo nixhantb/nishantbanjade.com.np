@@ -6,7 +6,8 @@ import {
   Publications,
   Github,
   Linkedin,
-  Blog
+  Blog,
+  Contact
 } from "./commands/HelpUser";
 
 export const commands: Record<string, string | string[]> = {
@@ -24,7 +25,7 @@ export const commands: Record<string, string | string[]> = {
   clear: [],
   help: HelpUser.map(
     (item) =>
-      `${item.whoami} <br/> ${item.education} <br/> ${item.skills} <br/> ${item.publications} <br/> ${item.blogs} <br/> ${item.github} <br/> ${item.LinkedIn} <br/> ${item.clear}`
+      `${item.whoami} <br/> ${item.education} <br/> ${item.skills} <br/> ${item.publications} <br/> ${item.blogs} <br/> ${item.github} <br/> ${item.LinkedIn} <br/> ${item.Contact} <br/> ${item.clear}`
   ).join("<br/>"),
 
   skills: Skills.map(
@@ -51,5 +52,8 @@ export const commands: Record<string, string | string[]> = {
   linkedin: Linkedin.map(
     (item) =>
       `<a href="${item.linkedin}" target="_blank">${item.linkedin}</a>`
+  ),
+  contact: Contact.map(
+    (item) => `Email Me -> ${item.email}`
   ),
 };

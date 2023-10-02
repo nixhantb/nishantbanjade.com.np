@@ -19,6 +19,7 @@ export default function TermNav() {
         <YellowDot />
         <GreenDot />
       </DotsInsideContainer>
+      {/* Copyright :D Nishant Banjade*/}
       <TextInsideContainer>Nix-term</TextInsideContainer>
       <IconButton>
         <Brightness4Icon sx={{ fontSize: isSmallScreen ? "0.7em" : "1em" }} />

@@ -1,6 +1,6 @@
 const TerminalConfiguration = {
-  welcome_message: "Type 'help' to get started",
-  terminal_username: "[Nix-term~ ]",
+  welcome_message: "Type 'help' to get started !",
+  terminal_username: "[Nix-term:~$]",
   whoami: {
     name: "Nishant Banjade",
     profession: "Software Engineer I",
@@ -12,13 +12,14 @@ const TerminalConfiguration = {
     CGPA: "8.68 / 10",
   },
   help: {
-    whoami: "whoami -> My general information",
-    education: "education -> My educational background",
-    skills: "skills -> My current SWE skills",
+    whoami: "whoami -> General information",
+    education: "education -> Educational background",
+    skills: "skills -> Current SWE skills",
     publications: "publications -> Papers published on international Journals",
     blogs: "blogs -> Contributing programming tutorials for learners",
     github: "github -> Where I put my codes :P",
-    LinkedIn: "LinkedIn -> LinkedIn handle of mine.",
+    LinkedIn: "linkedIn -> LinkedIn handle of mine.",
+    Contact: "contact -> Email for any thing",
     clear: "clear -> clears everything from the terminal",
   },
   skills: {
@@ -45,6 +46,9 @@ const TerminalConfiguration = {
   LinkedIn: {
     linkedin: "https://www.linkedin.com/in/nbanjade/",
   },
+  contact: {
+    email: "nixhant07@gmail.com"
+  }
 };
 
 export default TerminalConfiguration;
