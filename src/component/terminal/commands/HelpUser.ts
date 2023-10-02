@@ -8,3 +8,4 @@ export const Blog = [TerminalConfiguration.blogs];
 export const Github = [TerminalConfiguration.github];
 export const Linkedin = [TerminalConfiguration.LinkedIn];
 export const Contact = [TerminalConfiguration.contact];
+export const Experience = [TerminalConfiguration.experience];

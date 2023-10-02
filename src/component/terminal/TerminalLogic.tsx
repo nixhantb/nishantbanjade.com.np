@@ -83,6 +83,7 @@ const TerminalLogic: FC = () => {
           {terminal_username}
           <input
             type="text"
+            aria-label="input-form"
             value={input}
             autoFocus
             onChange={handleInputChange}

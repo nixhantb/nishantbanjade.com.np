@@ -6,7 +6,7 @@ describe("Render terminal logic ", () => {
     test("renders the welcome message", () => {
 
         render(<TerminalLogic/>);
-        const welcomeMessage = screen.getByText("Type 'help' to get started");
+        const welcomeMessage = screen.getByText("Type 'help' to get started !");
         expect(welcomeMessage).toBeTruthy();
     });
 
