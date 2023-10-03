@@ -51,6 +51,8 @@ describe("baseTheme", () => {
       "terminalOrangeDot",
       "terminalYellowDot",
       "terminalGreenDot",
+      "aboutPrimaryTextColor",
+      "aboutPrimaryColor"
     ]);
   });
 

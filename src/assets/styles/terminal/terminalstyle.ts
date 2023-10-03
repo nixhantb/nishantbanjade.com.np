@@ -8,7 +8,6 @@ export const ContainerDiv = styled(Box)(() => ({
   justifyContent: "center",
   alignItems: "center",
   marginTop: "1%",
-  marginBottom: "10%",
   height: "50vh",
 }));
 
@@ -21,7 +20,7 @@ export const TermContainer = styled(Box)(({ theme }) => ({
   overflowY: "auto",
   overflowX: "hidden",
   "&::-webkit-scrollbar": {
-    width: "0", // Hide the vertical scrollbar
+    width: "0", 
   },
   [theme.breakpoints.down("sm")]: {
     height: "40vh",
@@ -31,7 +30,7 @@ export const TermContainer = styled(Box)(({ theme }) => ({
 
 // Navbar container
 export const NavInsideContainer = styled(Box)(({ theme }) => ({
-  position: "sticky",  // Add this property
+  position: "sticky",  
   top: 0, 
   height: "2.3em",
   background: Colors.navBackgroundColor,

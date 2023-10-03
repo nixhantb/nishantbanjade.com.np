@@ -21,6 +21,8 @@ export const Colors: Record<string, string> = {
   terminalOrangeDot: "#fc5b57",
   terminalYellowDot: "#e5bf3c",
   terminalGreenDot: "#57c038",
+  aboutPrimaryTextColor: "#7D7C7C",
+  aboutPrimaryColor: "#9AD2B2",
 };
 
 const baseTheme: Theme = createTheme({
