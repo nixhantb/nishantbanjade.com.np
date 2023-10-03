@@ -1,3 +1,4 @@
+import { FC } from "react";
 import {
   AboutBodyContainer,
   AboutBodyImage,
@@ -7,7 +8,8 @@ import {
 } from "../../assets/styles/about/Aboutstyles";
 import RepresentationalImage from "../../assets/images/Nishant Banjade.png";
 import developerData from "../../assets/config/developer_data/customizedev";
-const AboutUser = () => {
+
+const AboutUser: FC = () => {
     const {about_title_name, about_description} = developerData;
   return (
     <AboutBodyContainer>
