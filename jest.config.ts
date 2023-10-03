@@ -11,7 +11,7 @@ module.exports = {
     '\\.(jpg|jpeg|png|gif|webp|svg)$': 'identity-obj-proxy',
     '^@fontsource/montserrat': 'jest-transform-stub',
     '^@fontsource/courier-prime': 'jest-transform-stub',
-    '^@fontsource/your-font-package': 'jest-transform-stub', // Add other font packages as needed
+    '^@fontsource/poppins': 'jest-transform-stub', 
   },
   collectCoverage: true,
 };

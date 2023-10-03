@@ -9,6 +9,7 @@ export const HeroBodyContainer = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   alignItems: "center",
   marginTop: "10px",
+  marginBottom: "4%",
   background: Colors.backgroundLightGray,
   [theme.breakpoints.down("md")]: {
     flexDirection: "column",

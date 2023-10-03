@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import UserProfileNav from "./component/UserProfileNav/UserProfileNav";
 import HeroBodyWithHeroImageAssociation from "./component/herobodyWithTypeWriterEffect/herobody/herobodyWithHeroImageAssociation";
 import TerminalContainer from "./component/terminal/TerminalContainer";
+import AboutUser from "./component/about/AboutUser";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <UserProfileNav />
       <HeroBodyWithHeroImageAssociation />
       <TerminalContainer/>
+      <AboutUser/>
     </>
   );
 }
