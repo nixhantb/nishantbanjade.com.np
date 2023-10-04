@@ -7,10 +7,10 @@ import '@fontsource/poppins';
 export const AboutBodyContainer = styled(Box)(({ theme }) => ({
     display: "flex",
     justifyContent: "center",
-    height: "54vh",
-    border: `1px solid rgb(154, 210, 178)`,
+    height: "50vh",
+    border: `1px solid ${Colors.aboutPrimaryColor}`,
     alignItems: "center",
-    margin: "5% 10%",
+    margin: "4% 10%",
     borderRadius: "13% 31% 10% 3% / 4% 1% 31% 11%",
     fontFamily: "'Montserrat', 'sans-serif'",
     color: Colors.aboutPrimaryTextColor,
