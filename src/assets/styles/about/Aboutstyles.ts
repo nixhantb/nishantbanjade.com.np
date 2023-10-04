@@ -32,13 +32,16 @@ export const AboutBodyContainer = styled(Box)(({ theme }) => ({
     border: `2px solid ${Colors.aboutPrimaryColor}`,
     margin: "1% 4%",
     [theme.breakpoints.down("md")]: {
-      width: "20%",
-      height: "16vw",
+      width: "27%",
+      height: "20vw",
       margin: "1% auto",
     },
   }));
   
   export const AboutTitle = styled(Typography)(({ theme }) => ({
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     lineHeight: 1.5,
     fontFamily: "'Courier Prime', sans-serif",
     fontWeight: "600",
@@ -47,8 +50,8 @@ export const AboutBodyContainer = styled(Box)(({ theme }) => ({
     color: `${Colors.aboutPrimaryColor}`,
     [theme.breakpoints.down("md")]: {
       marginBottom: "5px",
-      fontSize: "22px",
-      textAlign: "center",
+      fontSize: "2em",
+      
     },
   }));
   
@@ -60,7 +63,7 @@ export const AboutBodyContainer = styled(Box)(({ theme }) => ({
     fontWeight: "500",
     [theme.breakpoints.down("sm")]: {
       lineHeight: 1.25,
-      letterSpacing: 1.25,
+      letterSpacing: 1.20,
       fontSize: "0.8em",
     },
   }));
