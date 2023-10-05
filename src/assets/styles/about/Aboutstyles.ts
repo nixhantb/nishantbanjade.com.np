@@ -7,7 +7,7 @@ import '@fontsource/poppins';
 export const AboutBodyContainer = styled(Box)(({ theme }) => ({
     display: "flex",
     justifyContent: "center",
-    height: "50vh",
+    height: "auto",
     border: `1px solid ${Colors.aboutPrimaryColor}`,
     alignItems: "center",
     margin: "4% 10%",
@@ -15,7 +15,7 @@ export const AboutBodyContainer = styled(Box)(({ theme }) => ({
     fontFamily: "'Montserrat', 'sans-serif'",
     color: Colors.aboutPrimaryTextColor,
     [theme.breakpoints.down("md")]: {
-      margin: "4% 5%", 
+      margin: "4% 1%", 
       borderRadius: "5%",
       flexDirection: "column",
       alignItems: "center",
@@ -82,3 +82,53 @@ export const AboutBodyContainer = styled(Box)(({ theme }) => ({
     },
   }));
   
+
+  export const AboutSkillsContainer = styled(Box)(({theme}) => ({
+      display: "flex",
+      alignItems: "center",
+      marginTop: "2em",
+      flexWrap: "wrap",
+      [theme.breakpoints.down("md")]:{
+        flexWrap: "wrap",
+      },
+      [theme.breakpoints.down("sm")]:{
+        flexWrap: "wrap",
+      }
+  }));
+
+  export const SkillsButton = styled(Typography)(({ theme }) => ({
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '5em',
+    height: '2.7em',
+    fontSize: '0.7em',
+    textAlign: 'center',
+    border: `none`,
+    boxShadow: `3px 4px 2px ${Colors.backgroundDarkGray}`, 
+    color: Colors.aboutPrimaryTextColor,
+    background: Colors.backgroundLightGray,
+    margin: '0.6em',
+    padding: '5px',
+    borderRadius: '15%',
+    cursor: "pointer",
+    transition: 'transform 0.3s ease, box-shadow 0.2s ease', 
+  
+    '&:hover': {
+      transform: 'scale(1.1)', 
+      boxShadow: `5px 4px 6px ${Colors.backgroundDarkGray}`, 
+    },
+  
+    [theme.breakpoints.down('md')]: {
+      width: '4em',
+      height: '2.5em',
+      marginLeft: '0.4%',
+      fontSize: '0.9em',
+    },
+    [theme.breakpoints.down('sm')]: {
+      width: '3.2em',
+      height: '2.7em',
+      marginLeft: '0.4%',
+      fontSize: '0.6em',
+    },
+  }));
