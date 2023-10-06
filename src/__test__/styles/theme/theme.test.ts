@@ -52,7 +52,8 @@ describe("baseTheme", () => {
       "terminalYellowDot",
       "terminalGreenDot",
       "aboutPrimaryTextColor",
-      "aboutPrimaryColor"
+      "aboutPrimaryColor",
+      "workPrimaryTitle"
     ]);
   });
 

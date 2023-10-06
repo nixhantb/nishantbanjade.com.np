@@ -23,6 +23,9 @@ export const Colors: Record<string, string> = {
   terminalGreenDot: "#57c038",
   aboutPrimaryTextColor: "#7D7C7C",
   aboutPrimaryColor: "#9AD2B2",
+
+  // Work experience
+  workPrimaryTitle: "#595959"
 };
 
 const baseTheme: Theme = createTheme({
