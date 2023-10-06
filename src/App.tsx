@@ -3,6 +3,7 @@ import UserProfileNav from "./component/UserProfileNav/UserProfileNav";
 import HeroBodyWithHeroImageAssociation from "./component/herobodyWithTypeWriterEffect/herobody/herobodyWithHeroImageAssociation";
 import TerminalContainer from "./component/terminal/TerminalContainer";
 import AboutUser from "./component/about/AboutUser";
+import Experience from "./component/experience/Experience";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <HeroBodyWithHeroImageAssociation />
       <TerminalContainer/>
       <AboutUser/>
+      <Experience/>
     </>
   );
 }
