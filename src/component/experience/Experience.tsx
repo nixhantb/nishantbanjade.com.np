@@ -26,7 +26,6 @@ export default function () {
 
         <ExperienceItemContainer>
           <ExperienceItemCard />
-        
         </ExperienceItemContainer>
       </ExperienceContainer>
     </>
