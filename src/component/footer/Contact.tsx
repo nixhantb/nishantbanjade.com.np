@@ -60,7 +60,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="https://www.nishantbanjade.com.np"
+          href="https://blog.nishantbanjade.com.np/"
           target="_blank"
           rel="noopener noreferrer"
         >
