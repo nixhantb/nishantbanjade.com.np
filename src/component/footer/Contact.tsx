@@ -14,7 +14,7 @@ export default function Contact() {
   const isMediumScreen = useMediaQuery("(max-width:960px)");
 
   const iconStyle = {
-    fontSize: "52px",
+    fontSize: "42px",
     marginRight: "15px",
     marginBottom: "30px",
     cursor: "pointer",
@@ -28,7 +28,7 @@ export default function Contact() {
   if (isSmallScreen) {
     iconStyle.fontSize = "32px";
   } else if (isMediumScreen) {
-    iconStyle.fontSize = "42px";
+    iconStyle.fontSize = "39px";
   }
 
   return (
