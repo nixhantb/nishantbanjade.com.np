@@ -53,7 +53,8 @@ describe("baseTheme", () => {
       "terminalGreenDot",
       "aboutPrimaryTextColor",
       "aboutPrimaryColor",
-      "workPrimaryTitle"
+      "workPrimaryTitle",
+      "footerBackGroundColor"
     ]);
   });
 
