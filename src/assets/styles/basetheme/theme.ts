@@ -25,7 +25,10 @@ export const Colors: Record<string, string> = {
   aboutPrimaryColor: "#9AD2B2",
 
   // Work experience
-  workPrimaryTitle: "#595959"
+  workPrimaryTitle: "#595959",
+
+  // Footer color
+  footerBackGroundColor: "#C7D0FF",
 };
 
 const baseTheme: Theme = createTheme({
