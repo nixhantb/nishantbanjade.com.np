@@ -9,6 +9,7 @@ import WebIcon from "@mui/icons-material/Web";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { Colors } from "../../assets/styles/basetheme/theme";
 import { useMediaQuery } from "@mui/material";
+import EmailIcon from "@mui/icons-material/Email";
 export default function Contact() {
   const isSmallScreen = useMediaQuery("(max-width:600px)");
   const isMediumScreen = useMediaQuery("(max-width:960px)");
@@ -65,6 +66,9 @@ export default function Contact() {
           rel="noopener noreferrer"
         >
           <WebIcon sx={iconStyle} />
+        </a>
+        <a href="mailto:nixhant07@gmail.com">
+          <EmailIcon sx={iconStyle} />
         </a>
       </ContactIconsContainer>
     </ContactContainer>
