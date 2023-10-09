@@ -12,12 +12,11 @@ function App() {
   return (
     <>
       <UserProfileNav />
-      <HeroBodyWithHeroImageAssociation />
+      <HeroBodyWithHeroImageAssociation/>
       <TerminalContainer/>
       <AboutUser/>
       <Experience/>
       <Footer/>
-      
     </>
   );
 }

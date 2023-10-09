@@ -3,6 +3,7 @@ import { footerStyles } from "../../assets/styles/footer/footerlayoutstyles";
 import Contact from "./Contact";
 const Footer: FC = () => {
   return (
+    <div id = "contact">
     <footer>
       <svg viewBox="0 0 120 28">
         <defs>
@@ -39,6 +40,7 @@ const Footer: FC = () => {
      
       <Contact/>
     </footer>
+    </div>
   );
 };
 
