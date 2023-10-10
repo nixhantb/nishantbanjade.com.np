@@ -1,5 +1,5 @@
 # Portfolio Site With Terminal Support
-## Ongoing 
+## Verson 1.0
 Build your personalized portfolio website. Customize your website by editing a configuration file in the `config` folder. 
 
 ## Getting Started
