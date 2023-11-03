@@ -32,8 +32,8 @@ export const AboutBodyContainer = styled(Box)(({ theme }) => ({
     border: `2px solid ${Colors.aboutPrimaryColor}`,
     margin: "1% 4%",
     [theme.breakpoints.down("md")]: {
-      width: "27%",
-      height: "20vw",
+      width: "21%",
+      height: "19vw",
       margin: "1% auto",
     },
   }));
