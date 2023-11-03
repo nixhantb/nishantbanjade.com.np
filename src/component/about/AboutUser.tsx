@@ -13,6 +13,7 @@ import AboutUserSkills from "./AboutUserSkills";
 const AboutUser: FC = () => {
     const {about_title_name, about_description} = developerData;
   return (
+    <div id = "about">
     <AboutBodyContainer>
       <AboutBodyImage src={RepresentationalImage} />
       <AboutContent>
@@ -23,6 +24,7 @@ const AboutUser: FC = () => {
         <AboutUserSkills/>
       </AboutContent>
     </AboutBodyContainer>
+    </div>
   );
 };
 export default AboutUser;

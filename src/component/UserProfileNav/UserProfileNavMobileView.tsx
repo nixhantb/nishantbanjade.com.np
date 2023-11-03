@@ -21,12 +21,19 @@ import TerminalIcon from "@mui/icons-material/Terminal";
 import CloseIcon from "@mui/icons-material/Close";
 
 const UserProfileNavMobileView: FC = () => {
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const {
     developer_username,
     navbar_home,
     navbar_about,
     navbar_contact,
     navbar_terminal,
+    navbar_experience
   } = UserInformationDataForNavBar;
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -55,7 +62,7 @@ const UserProfileNavMobileView: FC = () => {
       </NavBarHeaderTitle>
 
       <IconButton aria-label="terminal-icon">
-        <TerminalIcon sx={{ fontSize: "1.3em" }} />
+        <TerminalIcon sx={{ fontSize: "1.3em" }} onClick={() => scrollToSection("terminal")}/>
       </IconButton>
 
       <Drawer anchor="top" open={menuOpen} onClose={toggleMenu}>
@@ -71,7 +78,7 @@ const UserProfileNavMobileView: FC = () => {
           <CloseIcon sx={{ fontSize: "2em" }} />
         </IconButton>
         <ListNavItemContainer types="block" sx={{ padding: "1em 0" }}>
-          <ListItemButton sx={ListItemButtonStyle}>
+          <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("/")}>
             <ListItemText
               primary={navbar_home}
               primaryTypographyProps={primaryTypographyStyleMobile}
@@ -84,10 +91,11 @@ const UserProfileNavMobileView: FC = () => {
               primary={navbar_about}
               primaryTypographyProps={primaryTypographyStyleMobile}
               sx={textStyleListItemText}
+              onClick={() => scrollToSection("about")}
             ></ListItemText>
           </ListItemButton>
 
-          <ListItemButton sx={ListItemButtonStyle}>
+          <ListItemButton sx={ListItemButtonStyle}  onClick={() => scrollToSection("contact")}>
             <ListItemText
               primary={navbar_contact}
               primaryTypographyProps={primaryTypographyStyleMobile}
@@ -95,7 +103,14 @@ const UserProfileNavMobileView: FC = () => {
             ></ListItemText>
           </ListItemButton>
 
-          <ListItemButton sx={ListItemButtonStyle}>
+          <ListItemButton sx={ListItemButtonStyle}  onClick={() => scrollToSection("experience")}>
+            <ListItemText
+              primary={navbar_experience}
+              primaryTypographyProps={primaryTypographyStyleMobile}
+              sx={textStyleListItemText}
+            ></ListItemText>
+          </ListItemButton>
+          <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("terminal")}>
             <ListItemText
               primary={navbar_terminal}
               primaryTypographyProps={primaryTypographyStyleMobile}

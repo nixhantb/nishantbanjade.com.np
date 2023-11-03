@@ -16,6 +16,10 @@ export const NavBarContainer = styled(Box)(() => ({
   alignItems: "center",
   color: Colors.textBlack,
   boxShadow: `5px 5px 5px ${Colors.backgroundDarkGray}`,
+  position: "sticky",  
+  top: 0,
+  background: "white",
+  zIndex: 1000
 }));
 
 // Nav header styling. Feel free to use logo for specific need
