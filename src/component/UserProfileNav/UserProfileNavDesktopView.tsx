@@ -71,5 +71,4 @@ const UserProfileNavDesktopView: FC = () => {
     </NavBarContainer>
   );
 };
-
 export default UserProfileNavDesktopView;
