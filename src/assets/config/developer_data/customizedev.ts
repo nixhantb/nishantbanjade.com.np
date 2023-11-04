@@ -4,6 +4,7 @@ const developerData = {
   navbar_about: "about",
   navbar_contact: "contact",
   navbar_terminal: "terminal",
+  navbar_experience: "experience",
   // Make sure to make it short and crisp
   herobody_img_description: "Desktop computer vector image illustration",
   developer_quote:

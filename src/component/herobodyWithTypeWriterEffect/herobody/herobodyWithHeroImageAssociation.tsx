@@ -11,6 +11,7 @@ import customizedDevData from "../../../assets/config/developer_data/customizede
 const HeroBodyWithHeroImageAssociation: FC = () => {
   const { developer_quote, herobody_img_description, typeWriter_speed } = customizedDevData;
   return (
+    <div id = "/">
     <HeroBodyContainer>
       <HeroBodyImage src={BgImage} alt={herobody_img_description} />
       <HeroBodyDescriptionContainer>
@@ -19,6 +20,7 @@ const HeroBodyWithHeroImageAssociation: FC = () => {
         </HeroTypeWriterContainer>
       </HeroBodyDescriptionContainer>
     </HeroBodyContainer>
+    </div>
   );
 };
 

@@ -9,6 +9,7 @@ import ComputerIcon from "@mui/icons-material/Computer";
 export default function () {
   return (
     <>
+    <div id = "experience">
       <ExperienceContainer>
         <ExperienceTitle>
           Work Experience
@@ -28,6 +29,7 @@ export default function () {
           <ExperienceItemCard />
         </ExperienceItemContainer>
       </ExperienceContainer>
+    </div>
     </>
   );
 }

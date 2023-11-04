@@ -21,8 +21,14 @@ const UserProfileNavDesktopView: FC = () => {
     navbar_contact,
     navbar_about,
     navbar_terminal,
+    navbar_experience
   } = UserInformationDataForNavBar;
-
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <NavBarContainer>
       <NavBarHeaderTitle>
@@ -36,7 +42,7 @@ const UserProfileNavDesktopView: FC = () => {
       </NavBarHeaderTitle>
 
       <ListNavItemContainer types="row">
-        <ListItemButton sx={ListItemButtonStyle}>
+        <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("/")}>
           <ListItemText
             primary={navbar_home}
             primaryTypographyProps={primaryTypographyStyle}
@@ -44,7 +50,7 @@ const UserProfileNavDesktopView: FC = () => {
           ></ListItemText>
         </ListItemButton>
 
-        <ListItemButton sx={ListItemButtonStyle}>
+        <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("about")}>
           <ListItemText
             primary={navbar_about}
             primaryTypographyProps={primaryTypographyStyle}
@@ -52,7 +58,15 @@ const UserProfileNavDesktopView: FC = () => {
           ></ListItemText>
         </ListItemButton>
 
-        <ListItemButton sx={ListItemButtonStyle}>
+        <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("experience")}>
+          <ListItemText
+            primary={navbar_experience}
+            primaryTypographyProps={primaryTypographyStyle}
+            sx={textStyleListItemText}
+          ></ListItemText>
+        </ListItemButton>
+
+        <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("contact")}>
           <ListItemText
             primary={navbar_contact}
             primaryTypographyProps={primaryTypographyStyle}
@@ -60,7 +74,7 @@ const UserProfileNavDesktopView: FC = () => {
           ></ListItemText>
         </ListItemButton>
 
-        <ListItemButton sx={ListItemButtonStyle}>
+        <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("terminal")}>
           <ListItemText
             primary={navbar_terminal}
             primaryTypographyProps={primaryTypographyStyle}
