@@ -47,7 +47,7 @@ const TerminalConfiguration = {
     blog_url: "https://blog.nishantbanjade.com.np/",
   },
   github: {
-    gh_handle: "https://github.com/Nix-code",
+    gh_handle: "https://github.com/nixhantb",
   },
   LinkedIn: {
     linkedin: "https://www.linkedin.com/in/nbanjade/",

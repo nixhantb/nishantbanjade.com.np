@@ -8,7 +8,7 @@ const developerData = {
   // Make sure to make it short and crisp
   herobody_img_description: "Desktop computer vector image illustration",
   developer_quote:
-    "Behind every successful program lies the dedication of a developer who, like an alchemist, transforms ideas into lines of code, turning dreams into reality.",
+    "I am currently working on JobLeet, a full-stack smart job portal solution, and designing a distributed message broker protocol from scratch.",
 
   // customize the typeWriter speed
   typeWriter_speed: 22,
