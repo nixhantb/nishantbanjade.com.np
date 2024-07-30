@@ -8,7 +8,7 @@ const developerData = {
   // Make sure to make it short and crisp
   herobody_img_description: "Desktop computer vector image illustration",
   developer_quote:
-    "I am a Software Engineer I at Ellucian, building complex CRM systems. As a side projects, I am currently working on JobLeet, a full-stack smart job portal solution, and designing a distributed message broker protocol from scratch.",
+    "I am a Software Engineer I at Ellucian, building complex CRM systems. As side projects, I am currently working on JobLeet, a full-stack smart job portal solution, and designing a distributed message broker protocol from scratch.",
 
   // customize the typeWriter speed
   typeWriter_speed: 22,
