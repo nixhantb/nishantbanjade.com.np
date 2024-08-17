@@ -10,7 +10,7 @@ const myWorkExperience = {
       "C#/.Net, JavaScript, CSS, Angular, TypeScript, SQL server, Dynamics 365, CRM Advance, Postman, Git, RabbitMQ, JIRA, SCRUM(Framework), Jest, NUnit, Regression Testing",
   },
   experience_two: {
-    companyDesignation: "Ellucian - Technical Intern",
+    companyDesignation: "Ellucian - SWE Intern",
     experienceDate: "Feb 2023 - May 2023",
     experienceDescription:
       "I collaborated with the Engage team, which is responsible for developing a software system that assists gift officers in their communication efforts with constituents and non-constituents, aiming to raise funds for the higher education system.",
