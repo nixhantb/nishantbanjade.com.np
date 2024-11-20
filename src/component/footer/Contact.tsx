@@ -37,7 +37,7 @@ export default function Contact() {
       <ContentTitle>Connect With Me</ContentTitle>
       <ContactIconsContainer>
         <a
-          href="https://github.com/Nix-code"
+          href="https://github.com/nixhantb"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -67,7 +67,7 @@ export default function Contact() {
         >
           <WebIcon sx={iconStyle} />
         </a>
-        <a href="mailto:nixhant07@gmail.com">
+        <a href="mailto:work.nishantbanjade@gmail.com">
           <EmailIcon sx={iconStyle} />
         </a>
       </ContactIconsContainer>

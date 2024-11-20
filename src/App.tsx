@@ -13,9 +13,12 @@ function App() {
     <>
       <UserProfileNav />
       <HeroBodyWithHeroImageAssociation/>
-      <TerminalContainer/>
       <AboutUser/>
+     
+     
+      
       <Experience/>
+      <TerminalContainer/>
       <Footer/>
     </>
   );

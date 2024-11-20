@@ -81,6 +81,17 @@ const UserProfileNavDesktopView: FC = () => {
             sx={textStyleListItemText}
           ></ListItemText>
         </ListItemButton>
+        <ListItemButton
+          sx={ListItemButtonStyle}
+          onClick={() => window.open("https://www.github.com/nixhantb", "_blank")}
+        >
+          <ListItemText
+            primary="Github"
+            primaryTypographyProps={primaryTypographyStyle}
+            sx={textStyleListItemText}
+          />
+        </ListItemButton>
+
       </ListNavItemContainer>
     </NavBarContainer>
   );

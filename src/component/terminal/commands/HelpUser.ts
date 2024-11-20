@@ -9,3 +9,5 @@ export const Github = [TerminalConfiguration.github];
 export const Linkedin = [TerminalConfiguration.LinkedIn];
 export const Contact = [TerminalConfiguration.contact];
 export const Experience = [TerminalConfiguration.experience];
+export const Projects = [TerminalConfiguration.projects];
+export const ls = [TerminalConfiguration.ls];

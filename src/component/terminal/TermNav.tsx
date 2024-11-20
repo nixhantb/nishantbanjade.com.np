@@ -6,8 +6,7 @@ import {
   GreenDot,
   TextInsideContainer,
 } from "../../assets/styles/terminal/terminalstyle";
-import { IconButton } from "@mui/material";
-import Brightness4Icon from "@mui/icons-material/Brightness4";
+import KeyboardIcon from '@mui/icons-material/Keyboard';
 import { useMediaQuery, useTheme } from "@mui/material";
 export default function TermNav() {
   const theme = useTheme();
@@ -21,9 +20,9 @@ export default function TermNav() {
       </DotsInsideContainer>
       {/* Copyright :D Nishant Banjade*/}
       <TextInsideContainer>Nix-term</TextInsideContainer>
-      <IconButton>
-        <Brightness4Icon sx={{ fontSize: isSmallScreen ? "0.7em" : "1em" }} />
-      </IconButton>
+     
+        <KeyboardIcon sx={{ fontSize: isSmallScreen ? "0.7em" : "1em" }} />
+   
     </NavInsideContainer>
   );
 }

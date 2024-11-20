@@ -3,19 +3,19 @@ const myWorkExperience = {
     companyDesignation: "Ellucian - Software Engineer I",
     experienceDate: "June 2023 - Present",
     experienceDescription:
-      " I am Focusing more on building CRM system using various tools and technologies with a great team to help Higher education system grow. It is part of the broader Ellucian portfolio of software solutions aimed at helping colleges and universities.",
+      "Focused on building robust CRM systems using cutting-edge tools and technologies, collaborating with a talented team to drive growth in the higher education sector. This work contributes to the broader Ellucian portfolio of software solutions, supporting colleges and universities worldwide.",
     responsibility:
-      " My responsibilities include delivering SAAS software to universities worldwide. This involves developing plugins, RESTful APIs, and user interfaces for a full-stack SAAS software system.",
+      "Delivering SaaS software solutions, including developing plugins, RESTful APIs, and user interfaces; implementing automation frameworks; integrating Hivebrite and Eventbrite; and migrating on-premise CRM systems to online environments",
     skills:
-      "C#/.Net, JavaScript, CSS, Angular, TypeScript, SQL server, Dynamics 365, CRM Advance, Postman, Git, RabbitMQ, JIRA, SCRUM(Framework), Jest, NUnit, Regression Testing",
+      "C#/.Net, JavaScript, CSS, TypeScript, SQL server, Dynamics 365, CRM Advance, Postman, Git, RabbitMQ, JIRA, SCRUM(Framework), Jest, NUnit, Regression Testing",
   },
   experience_two: {
     companyDesignation: "Ellucian - SWE Intern",
     experienceDate: "Feb 2023 - May 2023",
     experienceDescription:
-      "I collaborated with the Engage team, which is responsible for developing a software system that assists gift officers in their communication efforts with constituents and non-constituents, aiming to raise funds for the higher education system.",
+      "Collaborated with the Engage team, which is responsible for developing a software system that assists gift officers in their communication efforts with constituents and non-constituents, aiming to raise funds for the higher education system.",
     responsibility:
-      "As a technical Intern, I improved skills in ReactJS, NodeJS, C#, .NET, Jest, ZAP, and more. I contributed to API development, enhancing code quality, security, and performance for a higher education ERP system.",
+      "Improved skills in ReactJS, NodeJS, C#, .NET, Jest, ZAP, and more. I contributed to API development, enhancing code quality, security, and performance for a higher education ERP system.",
     skills:
       "C#/.Net, JavaScript, Material UI, ReactJS TypeScript, Dynamics 365, CRM Advance, Postman, Git, Jest, ZAP, NUnit, Regression Testing",
   },

@@ -9,6 +9,8 @@ import {
   Blog,
   Contact,
   Experience,
+  Projects,
+  ls
 } from "./commands/HelpUser";
 
 export const commands: Record<string, string | string[]> = {
@@ -24,14 +26,31 @@ export const commands: Record<string, string | string[]> = {
       <b style="color: #fc5b57">CGPA:</b> ${item.CGPA}
     `
   ),
-  
+
   clear: [],
+
   help: HelpUser.map(
     (item) => `
       <b style="color: #fc5b57">whoami :</b> ${item.whoami} <br/>
       <b style="color: #fc5b57">experience :</b> ${item.experience} <br/>
       <b style="color: #fc5b57">education :</b> ${item.education} <br/>
       <b style="color: #fc5b57">skills :</b> ${item.skills} <br/>
+      <b style="color: #fc5b57">skills :</b> ${item.projects} <br/>
+      <b style="color: #fc5b57">publications :</b> ${item.publications} <br/>
+      <b style="color: #fc5b57">blogs :</b> ${item.blogs} <br/>
+      <b style="color: #fc5b57">github :</b> ${item.github} <br/>
+      <b style="color: #fc5b57">linkedin :</b> ${item.LinkedIn} <br/>
+      <b style="color: #fc5b57">contact :</b> ${item.Contact} <br/>
+      <b style="color: #fc5b57">clear :</b> ${item.clear}
+    `
+  ),
+  ls: ls.map(
+    (item) => `
+      <b style="color: #fc5b57">whoami :</b> ${item.whoami} <br/>
+      <b style="color: #fc5b57">experience :</b> ${item.experience} <br/>
+      <b style="color: #fc5b57">education :</b> ${item.education} <br/>
+      <b style="color: #fc5b57">skills :</b> ${item.skills} <br/>
+      <b style="color: #fc5b57">skills :</b> ${item.projects} <br/>
       <b style="color: #fc5b57">publications :</b> ${item.publications} <br/>
       <b style="color: #fc5b57">blogs :</b> ${item.blogs} <br/>
       <b style="color: #fc5b57">github :</b> ${item.github} <br/>
@@ -86,6 +105,14 @@ export const commands: Record<string, string | string[]> = {
     (item) => `
       <b style="color: #fc5b57">Email Address </b> <br/>
       ${item.email}
+    `
+  ),
+  projects: Projects.map(
+    (item) => `
+      <b style="color: #fc5b57">JobLeet </b> <br/>
+      ${item.JobLeet}<br/>
+       <b style="color: #fc5b57">MessageQueue </b> <br/>
+      ${item.MessageQueue}
     `
   ),
 

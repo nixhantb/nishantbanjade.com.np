@@ -5,43 +5,34 @@ import { useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 
 const skillsArrayDesktop = [
+  'C#/.Net',
+  'D365',
   'JavaScript',
   'TypeScript',
+  'Tailwind',
   'MUI',
-  'HTML',
-  'CSS',
-  'C#',
-  'Java',
   'ReactJs',
-  'DotNet',
   'SQL',
-  'MongoDB',
   'JIRA',
   'Git',
-  'Postman',
   'RabbitMQ',
-  'vim',
   'Docker',
   'AWS'
 ];
 
 const skillsArrayMobile = [
+  'C#',
+  'D365',
   'JS',
   'TS',
+  'Twind',
   'MUI',
-  'HTML',
-  'CSS',
-  'C#',
-  'Java',
   'React',
   '.Net',
   'SQL',
-  'Mongo',
   'JIRA',
   'Git',
-  'Postman',
   'Rabbit',
-  'vim',
   'Docker',
   'AWS'
 ];
