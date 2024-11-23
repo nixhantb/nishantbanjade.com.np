@@ -53,7 +53,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="https://twitter.com/NishantBanjade1"
+          href="https://twitter.com/nixxhantb"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -21,7 +21,8 @@ const UserProfileNavDesktopView: FC = () => {
     navbar_contact,
     navbar_about,
     navbar_terminal,
-    navbar_experience
+    navbar_experience,
+    navbar_projects
   } = UserInformationDataForNavBar;
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -65,7 +66,13 @@ const UserProfileNavDesktopView: FC = () => {
             sx={textStyleListItemText}
           ></ListItemText>
         </ListItemButton>
-
+        <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("projects")}>
+          <ListItemText
+            primary={navbar_projects}
+            primaryTypographyProps={primaryTypographyStyle}
+            sx={textStyleListItemText}
+          ></ListItemText>
+        </ListItemButton>
         <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("contact")}>
           <ListItemText
             primary={navbar_contact}

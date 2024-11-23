@@ -33,7 +33,8 @@ const UserProfileNavMobileView: FC = () => {
     navbar_about,
     navbar_contact,
     navbar_terminal,
-    navbar_experience
+    navbar_experience,
+    navbar_projects
   } = UserInformationDataForNavBar;
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -110,6 +111,13 @@ const UserProfileNavMobileView: FC = () => {
               sx={textStyleListItemText}
             ></ListItemText>
           </ListItemButton>
+          <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("projects")}>
+          <ListItemText
+            primary={navbar_projects}
+            primaryTypographyProps={primaryTypographyStyleMobile}
+            sx={textStyleListItemText}
+          ></ListItemText>
+        </ListItemButton>
           <ListItemButton sx={ListItemButtonStyle} onClick={() => scrollToSection("terminal")}>
             <ListItemText
               primary={navbar_terminal}

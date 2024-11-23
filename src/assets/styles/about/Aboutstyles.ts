@@ -86,7 +86,7 @@ export const AboutBodyContainer = styled(Box)(({ theme }) => ({
   export const AboutSkillsContainer = styled(Box)(({theme}) => ({
       display: "flex",
       alignItems: "center",
-      marginTop: "2em",
+      marginTop: "0.5em",
       flexWrap: "wrap",
       [theme.breakpoints.down("md")]:{
         flexWrap: "wrap",
