@@ -13,11 +13,11 @@ Build your personalized portfolio website. Customize your website by editing a c
 1. Clone this repository to your local machine: (Clone from initial/setup branch to get initial template)
 
    ```bash
-   git clone https://github.com/Nix-code/portfolio.git
+   git clone git@github.com:nixhantb/Portfolio-website-React.git
  
 2. Navigate to the project directory:
    ```bash
-   cd portfolio V1.0
+   cd Portfolio-website-React
 
    ```
 3. Install the project dependencies:
